@@ -5,4 +5,6 @@ public class BookARoom {
     }
     public static int methodAdd(String name){
         String result=(name.equals("Aras"))?"happiness":"unhappiness";
+        return 100;
+}
 }
