@@ -12,4 +12,8 @@ public class HappyB20 {
         boolean isHappy=(name.equals("Aras"))?true:(name.equals("Tulpar"))?true:false;
         return salary;
     }
+    public static void happyMethod(Integer salaryExpectation){
+        boolean isHappy=(salaryExpectation>150000)?true:false;
+        System.out.println(isHappy);
+    }
 }
